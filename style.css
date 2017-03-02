@@ -13,15 +13,53 @@ background:linear-gradient( rgba(133,162,158,0), rgba(3,43,38,1));
 	margin-bottom: 50px;
 }
 @keyframes anim {
-	from{text-align:left;}
-	to { text-align: right; }
+	from {text-align:left;}
+	to  { text-align: right; }
 }
 
 h1{
 	color:#C03000;
-	
+	text-align: left;
 	font-size: 3em;
-	font-family: Righteous;
+	font-family: Tangerine;
+	font-weight: bold;
 	animation-name: anim;
     animation-duration: 4s;
+}
+/* formatting section */
+section
+{
+	width: 95%;
+	height: 800px;
+	margin: auto;
+	color:white;
+}
+.semaine{
+	margin-bottom: 20px;
+	height: 500px;
+	background-color: black;
+	position: relative;
+	margin:100px auto;
+
+}
+h2{
+	font-weight: bold;
+	font-family: Tangerine;
+	font-size: 3em;
+	text-align: center;
+}
+.projet{
+	height: 300px;
+	width: 400px;
+	background-color: #A6C8C4;
+	color:black;
+	margin-top: 50px;
+	padding-left:60px;
+	margin-left: 150px;
+}
+.proj12{
+	/*float: right;*/
+	top:60px;
+	position: absolute;
+	margin-left: 650px;
 }
