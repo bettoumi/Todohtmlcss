@@ -30,17 +30,18 @@ h1{
 section
 {
 	width: 95%;
-	height: 700px;
+	height: 900px;
 	margin: auto;
-	color:white;
+	
 }
 .semaine{
 	margin-bottom: 20px;
-	height: 500px;
-	width: 80%;
+	height: 450px;
+	width: 90%;
 	background-color: black;
-	position: relative;
-	margin:100px auto;
+	
+	
+	margin:10px auto;
 	border: 6px ridge transparent;
 	border-radius: 10px;
 }
@@ -49,26 +50,23 @@ h2{
 	font-family: Tangerine;
 	font-size: 3em;
 	text-align: center;
+	color: white;
 }
 .projet{
 	height: 300px;
-	width: 400px;
+	width: 35%;
 	background-color: #A6C8C4;
 	color:black;
-	margin-top: 50px;
+	margin:30px 80px;
 	padding-left:60px;
-	padding-right: 10px;
-	margin-left:50px;
+	padding-right: 30px;
+	
 	box-shadow: 6px 6px 4px rgba(225, 225, 225, 0.3);
 	border: 6px ridge #00EFCF;
 	border-radius: 5px;
+	display:inline-block;
 }
-.proj12{
-	/*float: right;*/
-	top:60px;
-	position: absolute;
-	margin-left: 520px;
-}
+
 .head-art{
 	display: inline-block;
 }
@@ -86,6 +84,7 @@ img{
 	left: 0;
 	top:-20 ;
 }
+/*formating ordred list*/
 ol{
 	margin-bottom: 40px;
 }
