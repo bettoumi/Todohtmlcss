@@ -92,4 +92,7 @@ ol{
 ol li{
    margin-bottom: 20px;
 }
+.list-termine li{
+	text-decoration: line-through;
+}
 
