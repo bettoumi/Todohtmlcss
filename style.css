@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 /*formatting of the header*/
-header{
+.head-princ{
 background:linear-gradient( rgba(133,162,158,0), rgba(3,43,38,1));
 	width: 100%;
 	height: 100px;
@@ -30,17 +30,19 @@ h1{
 section
 {
 	width: 95%;
-	height: 800px;
+	height: 700px;
 	margin: auto;
 	color:white;
 }
 .semaine{
 	margin-bottom: 20px;
 	height: 500px;
+	width: 80%;
 	background-color: black;
 	position: relative;
 	margin:100px auto;
-
+	border: 6px ridge transparent;
+	border-radius: 10px;
 }
 h2{
 	font-weight: bold;
@@ -55,11 +57,39 @@ h2{
 	color:black;
 	margin-top: 50px;
 	padding-left:60px;
-	margin-left: 150px;
+	padding-right: 10px;
+	margin-left:50px;
+	box-shadow: 6px 6px 4px rgba(225, 225, 225, 0.3);
+	border: 6px ridge #00EFCF;
+	border-radius: 5px;
 }
 .proj12{
 	/*float: right;*/
 	top:60px;
 	position: absolute;
-	margin-left: 650px;
+	margin-left: 520px;
 }
+.head-art{
+	display: inline-block;
+}
+h3{
+	text-decoration: underline;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-weight: bold;
+	font-family: Tangerine;
+	font-size: 20px;
+	text-align: center;
+}
+img{
+	float: left;
+	left: 0;
+	top:-20 ;
+}
+ol{
+	margin-bottom: 40px;
+}
+ol li{
+   margin-bottom: 20px;
+}
+
